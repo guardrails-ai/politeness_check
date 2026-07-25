@@ -1,3 +1,24 @@
+# ⚠️ This validator has moved
+
+This validator now lives in the [Guardrails Hub monorepo](https://github.com/guardrails-ai/guardrails-hub-monorepo/tree/main/politeness_check).
+**This repository is archived and no longer maintained** — please open issues and pull
+requests on the monorepo instead.
+
+```bash
+pip install guardrails-ai-politeness-check
+```
+
+```python
+from guardrails import Guard
+from guardrails_ai.politeness_check import PolitenessCheck
+
+guard = Guard().use(PolitenessCheck)
+```
+
+The registered validator name is unchanged, so existing guards keep working.
+
+---
+
 ## Overview
 
 | Developed by | Guardrails AI |
